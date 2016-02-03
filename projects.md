@@ -24,7 +24,25 @@ permalink: /projects/
 				<b>Key words:</b> Clustering, K-Means, Code Change Sets, Code Analysis
 				</p>
 				<a href="{{ "/downloads/Applying Machine Learning Techniques in Software Engineering.pdf" | prepend: site.baseurl }}">
-					Applying Machine Learning Techniques in Software Engineering.pdf
+					<i class="fa fa-file-pdf-o"></i> Applying Machine Learning Techniques in Software Engineering.pdf
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+        <div class="col-md-6">
+            <div class="well">
+			    <h3 class="title with-icon">
+					<span class="fa fa-linux cat-title"></span>
+					Docker image for machine learning enthusiasts
+				</h3>
+				<p>
+				&nbsp;&nbsp;&nbsp;<b>MachineLearningUltimate</b> is a docker image with a bunch of popular machine learning toolkits preinstalled. You can quickly spin up an instance of this docker image on Linux or Windows (using Docker ToolBox) <br/>
+
+				&nbsp;&nbsp;&nbsp;The goal of <b>MachineLearningUlitmate</b> is to have all popular machine learning / statistical computing toolkits ready for use.
+				</p>
+				<a href="https://github.com/vijayshinva/MachineLearningUltimate">
+					<i class="fa fa-github"></i> MachineLearningUltimate GitHub Repository
 				</a>
 			</div>
 		</div>

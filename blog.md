@@ -14,7 +14,40 @@ permalink: /blog/
 						<span class="fa fa-calendar cat-title"></span>
 						Archive
 					</h3>
-				    {% for post in site.posts  %}
+					{% for post in site.posts  %}
+					    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+					    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+					    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+					    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+
+					    {% if forloop.first %}
+					    <ul class="nav nav-list blogarchive">
+            				<li><label class="tree-toggler nav-header">{{ this_month }} {{this_year}}</label>
+            					<ul class="nav nav-list tree">
+					    {% endif %}
+
+					    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+					    {% if forloop.last %}
+					    		</ul>
+					    	</li>
+					    </ul>
+					    {% else %}
+					        {% if this_year != next_year %}
+					        	</ul>
+					        </li>
+					        <li><label class="tree-toggler nav-header">{{ next_month }} {{next_year}}</label>
+            					<ul class="nav nav-list tree">
+					        {% else %}    
+					            {% if this_month != next_month %}
+					            </ul>
+					        <li><label class="tree-toggler nav-header">{{ next_month }} {{next_year}}</label>
+					            <ul class="nav nav-list tree">
+					            {% endif %}
+					        {% endif %}
+					    {% endif %}
+					{% endfor %}
+				    <!--{% for post in site.posts  %}
 					    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 					    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
 					    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
@@ -44,8 +77,9 @@ permalink: /blog/
 					            {% endif %}
 					        {% endif %}
 					    {% endif %}
-					{% endfor %}
+					{% endfor %}-->
 				</div>
+				
 			</div>
 			<div class="col-md-9">
 				<div>
@@ -53,7 +87,7 @@ permalink: /blog/
 					<div class="panel panel-default">
 						<div class="panel-body">
 					    	<h3 class="media-heading"><a class="text-dblue" href="{{ post.url }}">{{ post.title }}</a></h3>
-					    	<time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+					    	<i class="fa fa-clock-o text-muted"></i> <time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
 					    	{{ post.excerpt }} 
 					    
 				    		{% capture content_words %} 
@@ -85,3 +119,10 @@ permalink: /blog/
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).ready(function () {
+	$('label.tree-toggler').click(function () {
+		$(this).parent().children('ul.tree').toggle(150);
+	});
+});
+</script>

@@ -72,7 +72,8 @@ permalink: /blog/
 						    {% assign taglist = post.tags | sort %}
 						    {% for tag in taglist | order: descending %}
 						    <small>
-							    <a class="text-dblue" href="/tags/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
+							    <!--<a class="text-dblue" href="/tags/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>-->
+							    {{ tag }}
 					      		{% if forloop.last != true %}, {% endif %}
 					    	</small> 
 					   		{% endfor %}

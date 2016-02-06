@@ -56,6 +56,7 @@ permalink: /about/
 									<li><a href="#">Post Mortem Debugging(WinDbg)</a></li>
 									<li><a href="#">WCF</a></li>
 									<li><a href="#">React.JS</a></li>
+									<li><a href="#">Bootstrap</a></li>
 									<li><a href="#">Networking Basics</a></li>
 									<li><a href="#">Windows Internals</a></li>
 									<li><a href="#">ARR</a></li>
@@ -88,7 +89,8 @@ permalink: /about/
 									<li><a href="#">Architecture Reviews</a></li>
 									<li><a href="#">Production Crisis Response</a></li>
 									<li><a href="#">Prospecting / Client Cultivation</a></li>
-									<li><a href="#"></a></li>
+									<!--Linux-->
+									<li><a href="#">Docker</a></li>
 								</ul>
 							</canvas>	
 						</div>

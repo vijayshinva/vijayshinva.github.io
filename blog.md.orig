@@ -63,7 +63,11 @@ permalink: /blog/
 					   			{{ post.excerpt | number_of_words }} 
 						    {% endcapture %} 
 							{% if excerpt_words != content_words %}
+<<<<<<< HEAD
+							    <p><a class="btn btn-sm btn-primary" href="{{ post.url }}/#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+=======
 							    <p><a class="btn btn-sm btn-primary" href="{{ post.url }}#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+>>>>>>> fe68802b4fb3d8bf21ffe4fc04dcd6d10f661e8b
 							    </p>
 					    	{% endif %}
 					  	</div>

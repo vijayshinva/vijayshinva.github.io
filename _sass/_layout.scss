@@ -692,5 +692,11 @@ a {
 }
 
 .sidebar ul {
+    
     margin: 0;
+}
+
+.sidebar li {
+    overflow: hidden;
+    margin-bottom: 5px;
 }

@@ -6,8 +6,6 @@ categories: [visual studio, .net]
 tags: [visual studio, .net]
 ---
 
-## Issue 
-
 On a fresh installation of Visual Studio 2015 Enterprise with Update 1 you might get the following error
 
 {% highlight bamboo %}

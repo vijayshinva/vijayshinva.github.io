@@ -67,6 +67,7 @@ permalink: /about/
 									<li><a href="#">Azure HDInsight</a></li>
 									<li><a href="#">IoT</a></li>
 									<li><a href="#">Raspberry Pi</a></li>
+									<li><a href="#">DocumentDB</a></li>
 									<!--Architecture-->
 									<li><a href="#">CQRS</a></li>
 									<li><a href="#">Lambda Architecture</a></li>
@@ -91,6 +92,7 @@ permalink: /about/
 									<li><a href="#">Prospecting / Client Cultivation</a></li>
 									<!--Linux-->
 									<li><a href="#">Docker</a></li>
+									<li><a href="#">Elastic Search</a></li>
 								</ul>
 							</canvas>	
 						</div>

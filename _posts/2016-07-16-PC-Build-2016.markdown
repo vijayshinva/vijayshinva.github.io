@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "PC Build 2016"
+date:   2016-07-16 12:00:00 +0530
+categories: [hardware]
+tags: [hardware]
+---
+
+For years I have been working on laptops and haven't owned a desktop. The last time I had built a rig on my own was when Intel Core 2 Duo was the top of the line processor. But now with my new hobby of machine learning, I really needed a desktop. So I put together a rig for my machine learning experiments.
+
+The goal was to have a portable desktop that I could move around but powerful enough to pull off most of my experiments. The Corsair 380T Mini ITX case seemed to be the most portable case out there. With a handle on top, you can easily carry it around. The next choice was the Asus Maximus VIII Impact motherboard which is a gaming motherboard, not because I was going to game on it but because the motherboard can be easily overclocked and runs stable under overclocked conditions for extended periods of time. Also it needed to support an Intel Skylake processor. The motherboard also has nice features like integrated WiFi (ac), an onboard HDMI outlet and sound card. For memory, I chose the G.Skill TridentZ series DDR4 memory. The motherboard supports a maximum of 32 GB. The CPU choice was an i7-6700K. The Skylake series has Integrated HD Graphics, which I can use for my primary display while the actual graphics card can be used for CUDA processing. Also the processor is unlocked and can be overclocked. The CPU is cooled by a Deep Cool Maelstrom 120T liquid cooler. It is a single radiator cooler with low noise. The 380T pc case has a built in 3 step fan speed controller. The radiator fan is hooked up to this controller. Under idle conditions the speed can be turned down to reduce noise.
+
+The main star of this rig is the MSI Geforce GTX 1080 Gaming X Video Card. The latest and greatest from NVidia. This will be the main processor for most of my machine learning experiments. The choice of NVidia was more to do with popular machine learning libraries supporting CUDA over OpenCL. The graphics card turns off its fans when it is not under load, reducing noise. I did try to get an Asus Strix Geforce GTX 1080 card, but unfortunately it has 3 fans and it does not fit in the 380T pc case. 
+
+The entire rig is powered by a Corsair RM 550W powersupply. The RM series powersupplies are quiet and like the graphics card does not spin its fan unless actual cooling is needed. Also the NVidia Pascal series graphics cards are very power efficient. The max power draw which I observed with the graphics card and CPU under load was 293w. At idle the rig draws around 44w. 
+
+Carrying the software will be a Samsung EVO SSD.
+
+#### Hardware
+* CPU: Intel Core i7-6700K 4.0GHz Quad-Core Processor
+* CPU Cooler: Deepcool Maelstrom 120T Liquid CPU Cooler
+* Motherboard: Asus MAXIMUS VIII IMPACT Mini ITX Motherboard
+* Memory: G.Skill TridentZ Series 32GB (2 x 16GB) DDR4-3200 Memory
+* Storage: Samsung 850 EVO-Series 500GB 2.5" Solid State Drive
+* Video Card: MSI GeForce GTX 1080 8GB GAMING X 8G Video Card 
+* Power Supply: Corsair RM 550W 80+ Fully-Modular ATX Power Supply
+* Case: Corsair 380T Mini ITX Case
+
+#### Software
+* Ubuntu 16.04
+
+Ubuntu 16.04 was able to handle most of the hardware by default. For stuff like WiFi, I had to run a `dist-upgrade` after the installation to get the drivers. Nvidia Geforce 1080 has problems with Ubuntu 16.04 (July 2016). You will end up with weird issues like the Ubuntu login screen going blank etc. But my plan all along was to use the Intel Integrated Graphics for the primary display. The Asus BIOS software provides an easy way to set the IGFX as the primary display driver. The nvidia-367 driver supports the 1080 card and is available at `ppa:graphics-drivers/ppa`. The CUDA ToolKit 8 is still a RC and libraries like TensorFlow will have to be compiled from source, to support CUDA ToolKit 8.
+
+This is my first time working with CUDA. One of my convolutional network experiments that used to take ~4 hours on CPU alone is now getting processed in ~5 mins.

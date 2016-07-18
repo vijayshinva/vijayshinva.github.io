@@ -60,6 +60,7 @@ permalink: /about/
 									<li><a href="#">Networking Basics</a></li>
 									<li><a href="#">Windows Internals</a></li>
 									<li><a href="#">ARR</a></li>
+									<li><a href="#">Node.js</a></li>
 									<!--Cloud Technologies-->
 									<li><a href="#">Windows Azure</a></li>
 									<li><a href="#">Azure EventHubs</a></li>
@@ -130,7 +131,7 @@ permalink: /about/
 	                                    <h4 class="timeline-title">Harman International (India) Pvt. Ltd.</h4>
 	                                    <p>
 	                                        <small class="text-muted">
-	                                                Technical Architect
+	                                                Senior Architect
 	                                        </small>
 	                                    </p>
 	                                    <p>

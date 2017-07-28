@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postold
 title:  "New-NetNat : The parameter is incorrect."
 date:   2017-04-27 12:00:00 +0530
 categories: [windows, hyper-v]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postold
 title:  "Visual Studio 2015 Enterprise with Update 1 - Could not load file or assembly Microsoft.VisualStudio.ConnectedServices, Version=2.0.0.0"
 date:   2016-03-31 12:00:00 +0530
 categories: [visual studio, .net]

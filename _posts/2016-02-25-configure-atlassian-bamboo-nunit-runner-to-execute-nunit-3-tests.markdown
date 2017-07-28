@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postold
 title:  "Configure Atlassian Bamboo(v5.9.4) NUnit Runner to execute NUnit 3 Tests"
 date:   2016-02-25 12:00:00 +0530
 categories: [devops, bamboo, nunit, tdd, ci]

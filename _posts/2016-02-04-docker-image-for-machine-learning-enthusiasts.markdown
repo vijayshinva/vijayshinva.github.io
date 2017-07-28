@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postold
 title:  "Docker image for machine learning enthusiasts"
 date:   2016-02-04 12:00:00 +0530
 categories: [machine learning, docker, Anaconda, Python, R, TensorFlow]

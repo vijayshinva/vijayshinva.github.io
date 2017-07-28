@@ -19,11 +19,12 @@ permalink: /about/
 							<li>Azure Cloud Architect</li>
 							<li>Full Stack Developer</li>
 							<li>Machine Learning Engineer</li>
-							<li>Consultant</li>
-							<li>Trainer</li>
 							<li>Big Data Engineer</li>
 							<li>DevOps Specialist</li>
+							<li>SAFe 4 Agilist</li>
 							<li>Master of Technology</li>
+							<li>Consultant</li>
+							<li>Trainer</li>
 						</ul>
 					</div>
 				</div>
@@ -84,6 +85,7 @@ permalink: /about/
 									<li><a href="#">Bamboo</a></li>
 									<li><a href="#">Jenkins</a></li>
 									<li><a href="#">Team City</a></li>
+									<li><a href="#">Team Foundation Server</a></li>
 									<li><a href="#">Jira</a></li>
 									<li><a href="#">NUnit</a></li>
 									<li><a href="#">Moq</a></li>
@@ -93,9 +95,12 @@ permalink: /about/
 									<li><a href="#">Prospecting / Client Cultivation</a></li>
 									<!--Linux-->
 									<li><a href="#">Docker</a></li>
+									<li><a href="#">Docker Swarm</a></li>
 									<li><a href="#">Elastic Search</a></li>
+									<!--Machine Learning-->
+									<li><a href="#">Tensor Flow</a></li>
 								</ul>
-							</canvas>	
+							</canvas>
 						</div>
 					</div>
 				</div>
@@ -108,6 +113,7 @@ permalink: /about/
 							Certifications
 						</h3>
 						<ul>
+							<li>Scaled Agile Framework - Leading SAFe 4.0</li>
 							<li>ITIL - Foundation</li>
 							<li>Microsoft Certified Technology Specialist - Microsoft Biztalk Server 2010</li>
 							<li>Microsoft Certified Application Developer - Microsoft.NET</li>
@@ -142,7 +148,7 @@ permalink: /about/
 	                                    </p>
 	                                </div>
 	                                <div class="timeline-body">
-	                                    
+
 	                                </div>
 	                            </div>
 	                        </li>
@@ -164,7 +170,7 @@ permalink: /about/
 	                                    </p>
 	                                </div>
 	                                <div class="timeline-body">
-	                                    
+
 	                                </div>
 	                            </div>
 	                        </li>
@@ -186,7 +192,7 @@ permalink: /about/
 	                                    </p>
 	                                </div>
 	                                <div class="timeline-body">
-	                                    
+
 	                                </div>
 	                            </div>
 	                        </li>
@@ -218,7 +224,7 @@ permalink: /about/
 	                                    </p>
 	                                </div>
 	                                <div class="timeline-body">
-	                                    
+
 	                                </div>
 	                            </div>
 	                        </li>
@@ -240,7 +246,7 @@ permalink: /about/
 	                                    </p>
 	                                </div>
 	                                <div class="timeline-body">
-	                                    
+
 	                                </div>
 	                            </div>
 	                        </li>

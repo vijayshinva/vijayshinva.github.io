@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postold
 title:  "This app can't run on your PC"
 date:   2016-04-30 12:00:00 +0530
 categories: [windows]

@@ -27,6 +27,26 @@ permalink: /about/
 							<li>Trainer</li>
 						</ul>
 					</div>
+					<div class="well">
+						<h3 class="title with-icon">
+							<span class="fa fa-external-link cat-title"></span>
+							Links
+						</h3>
+						<ul style="list-style: none;">
+							<li>
+								<i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;
+								<a href="https://github.com/vijayshinva">https://github.com/vijayshinva</a>
+							</li>
+							<li>
+								<i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;
+								<a href="https://www.kaggle.com/vijayshinva">https://www.kaggle.com/vijayshinva</a>
+							</li>
+							<li>
+								<i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;
+								<a href="https://stackoverflow.com/users/1055144">https://stackoverflow.com/users/1055144</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div class="col-md-8">
 					<div class="well">
@@ -115,9 +135,10 @@ permalink: /about/
 						<ul>
 							<li>Scaled Agile Framework - Leading SAFe 4.0</li>
 							<li>ITIL - Foundation</li>
+							<li>Microsoft Certified Solutions Associate - Web Applications</li>
 							<li>Microsoft Certified Technology Specialist - Microsoft Biztalk Server 2010</li>
-							<li>Microsoft Certified Application Developer - Microsoft.NET</li>
-							<li>Microsoft Certified Solutions Developer - Web Applications</li>
+							<li>Microsoft Certified Solutions Developer - Web Applications Legacy)</li>
+							<li>Microsoft Certified Application Developer - Microsoft.NET (Legacy)</li>
 						</ul>
 					</div>
 				</div>

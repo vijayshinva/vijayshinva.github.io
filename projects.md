@@ -46,5 +46,21 @@ permalink: /projects/
 				</a>
 			</div>
 		</div>
+		<div class="col-md-6">
+            <div class="well">
+			    <h3 class="title with-icon">
+					<span class="fa fa-github cat-title"></span>
+					Other projects on GitHub
+				</h3>
+				<p>
+				<b>BeautifulColors</b> - A .NET Core Library for working with colors.  <br/>
+
+				<b>Bencode2Json</b> - A .NET Core Library for converting Bencoded Dictionaries to Json Documents.  <br/>
+				</p>
+				<a href="https://github.com/vijayshinva/">
+					<i class="fa fa-github"></i> GitHub Repositories
+				</a>
+			</div>
+		</div>
 	</div>
 </div>

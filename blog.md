@@ -9,6 +9,9 @@ permalink: /blog/
 	<div class="container container-left">
 	    <div class="row">
 	        <div class="col-md-3 hidden-xs">
+				<div class="sidebar btn btn-lg btn-block">
+					<a href="http://vijayshinva.github.io/feed.xml" style="color: orange"><span class="fa fa-lg fa-rss-square"></span></a>
+				</div>
 				<div class="sidebar well" style="background-color: #FFF">
 				    <h3 class="title with-icon">
 						<span class="fa fa-calendar cat-title"></span>
@@ -71,9 +74,8 @@ permalink: /blog/
 					  	<div class="panel-footer">
 						    <i class="fa fa-tags text-primary"></i>
 						    {% assign taglist = post.tags | sort %}
-						    {% for tag in taglist | order: descending %}
+						    {% for tag in taglist %}
 						    <small>
-							    <!--<a class="text-dblue" href="/tags/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>-->
 							    {{ tag }}
 					      		{% if forloop.last != true %}, {% endif %}
 					    	</small> 

@@ -32,7 +32,7 @@ permalink: /about/
 							<span class="fa fa-external-link cat-title"></span>
 							Links
 						</h3>
-						<ul style="list-style: none;">
+						<ul style="list-style: none; text-indent: -13px; font-variant:small-caps; font-size:80%">
 							<li>
 								<i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp;
 								<a href="https://github.com/vijayshinva">https://github.com/vijayshinva</a>
@@ -44,6 +44,10 @@ permalink: /about/
 							<li>
 								<i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;
 								<a href="https://stackoverflow.com/users/1055144">https://stackoverflow.com/users/1055144</a>
+							</li>
+							<li>
+								<i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;
+								<a href="https://blogs.msdn.microsoft.com/vijaysk">https://blogs.msdn.microsoft.com/vijaysk</a>
 							</li>
 						</ul>
 					</div>
@@ -137,7 +141,7 @@ permalink: /about/
 							<li>ITIL - Foundation</li>
 							<li>Microsoft Certified Solutions Associate - Web Applications</li>
 							<li>Microsoft Certified Technology Specialist - Microsoft Biztalk Server 2010</li>
-							<li>Microsoft Certified Solutions Developer - Web Applications Legacy)</li>
+							<li>Microsoft Certified Solutions Developer - Web Applications (Legacy)</li>
 							<li>Microsoft Certified Application Developer - Microsoft.NET (Legacy)</li>
 						</ul>
 					</div>

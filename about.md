@@ -49,6 +49,14 @@ permalink: /about/
 								<i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;
 								<a href="https://blogs.msdn.microsoft.com/vijaysk">https://blogs.msdn.microsoft.com/vijaysk</a>
 							</li>
+							<li>
+								<i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;
+								<a href="https://www.linkedin.com/in/vijayshinva-karnure-89253b17">https://www.linkedin.com/in/vijayshinva-karnure-89253b17</a>
+							</li>
+							<li>
+								<i class="fa fa-linux" aria-hidden="true"></i>&nbsp;&nbsp;
+								<a href="https://hub.docker.com/u/vijayshinva/">https://hub.docker.com/u/vijayshinva/</a>
+							</li>
 						</ul>
 					</div>
 				</div>

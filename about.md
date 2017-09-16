@@ -147,6 +147,8 @@ permalink: /about/
 						<ul>
 							<li>Scaled Agile Framework - Leading SAFe 4.0</li>
 							<li>ITIL - Foundation</li>
+							<li>Microsoft Certified Solutions Developer - App Builder</li>
+							<li>Microsoft Certified Solutions Associate - Cloud Platform</li>
 							<li>Microsoft Certified Solutions Associate - Web Applications</li>
 							<li>Microsoft Certified Technology Specialist - Microsoft Biztalk Server 2010</li>
 							<li>Microsoft Certified Solutions Developer - Web Applications (Legacy)</li>

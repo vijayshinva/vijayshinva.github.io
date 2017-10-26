@@ -42,15 +42,15 @@ with a call stack similar to
 ```
 at System.Security.Cryptography.Utils.CreateProvHandle(CspParameters parameters, Boolean randomKeyContainer)
 at System.Security.Cryptography.Utils.GetKeyPairHelper(CspAlgorithmType keyType, CspParameters parameters, Boolean randomKeyContainer, Int32 dwKeySize, SafeProvHandle& safeProvHandle, SafeKeyHandle& safeKeyHandle)
-at System.Security.Cryptography.RSACryptoServiceProvider.GetKeyPair()\r\n   at System.Security.Cryptography.RSACryptoServiceProvider..ctor(Int32 dwKeySize, CspParameters parameters, Boolean useDefaultKeySize)
-at System.Security.Cryptography.X509Certificates.X509Certificate2.get_PrivateKey()\r\n   at System.ServiceModel.Security.SecurityUtils.GetKeyContainerInfo(X509Certificate2 certificate)
+at System.Security.Cryptography.RSACryptoServiceProvider.GetKeyPair()
+at System.Security.Cryptography.RSACryptoServiceProvider..ctor(Int32 dwKeySize, CspParameters parameters, Boolean useDefaultKeySize)
+at System.Security.Cryptography.X509Certificates.X509Certificate2.get_PrivateKey()
+at System.ServiceModel.Security.SecurityUtils.GetKeyContainerInfo(X509Certificate2 certificate)
 at System.ServiceModel.Security.SecurityUtils.CanKeyDoKeyExchange(X509Certificate2 certificate)
 at System.ServiceModel.Security.SecurityUtils.EnsureCertificateCanDoKeyExchange(X509Certificate2 certificate)"
 ``` 
 
-The reason for this is a bit complicated and discussed [here]( https://blogs.msdn.microsoft.com/winsdk/2014/11/18/accessing-a-cng-private-key-from-an-x509certificate2-class/)
-
-In simple terms **New-SelfSignedCertificate** creates and stores the certificate data in a certificate store (CNG Store) which .NET Security classes do not understand.
+The reason for this is a bit complicated and discussed [here]( https://blogs.msdn.microsoft.com/winsdk/2014/11/18/accessing-a-cng-private-key-from-an-x509certificate2-class/). In simple terms **New-SelfSignedCertificate** creates and stores the certificate data in a certificate store (CNG Store) which .NET Security classes do not understand.
 
 So instead of using **New-SelfSignedCertificate** for generating your self-signed SSL certificates, for **.NET** projects, use the **makecert** tool which is available from the **Developer Command Prompt for VS**
 

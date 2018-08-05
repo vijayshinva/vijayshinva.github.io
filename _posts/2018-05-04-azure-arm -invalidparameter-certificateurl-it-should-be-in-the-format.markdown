@@ -14,7 +14,7 @@ Azure has now introduced the concept of **Certificates** in Key Vault. You can u
 
 Certificates have an identifier URL with the format **https://\<vaultEndpoint\>/certificates/\<secretName\>/\<secretVersion\>**. For example https://vk-test-keyvault.vault.azure.net/certificates/yourdomain-cloudapp-net/a86437e4906343c3a9ff48b4af7ffdbf
 
-But you cannot refer to those certificate identifier URLs in ARM templates directly. For example, if you refer to the certificate URL as follows
+But you cannot refer to those certificate identifier URLs in ARM templates directly. For example, if you refer to the certificate identifier URL as follows
 
 {% highlight json %}
 "osProfile": {
@@ -88,7 +88,7 @@ Updated       : 05-05-2018 09:45:56 AM
 RecoveryLevel : Purgeable
 {% endhighlight %}
 
-You can refer the certificate using the **SecretId** URL.
+You can refer to the certificate using the **SecretId** URL.
 
 {% highlight json %}
 "osProfile": {

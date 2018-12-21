@@ -347,31 +347,34 @@ a {
     margin: auto;
 }
 
-.canvas-wrapper {
+.div-fs {
+    position: absolute;
+    min-height: 100%; 
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+
+.photo-wrapper {
     position: relative;
     padding: 0;
     margin: 0 auto;
+}
+
+.photo-wrapper img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #FDC08E;
+    animation: 1s animateBorder infinite;
+    margin-left: 150;
+    margin-right: 150;
     width: 200px;
     height: 200px;
 }
 
-.canvas-wrapper canvas {
-    border-radius: 50%;
-    box-shadow: 0 0 0 1px #FDC08E;
-    animation: 1s animateBorder infinite;
-}
-
-#canv_net {
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-
-#canv_net:hover {
-    z-index: -10;
-}
-
-.neuraltext {
+.intro-text {
     clear: right;
     font-family: $head-font-family;
     font-size: 10px;

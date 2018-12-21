@@ -3,72 +3,75 @@ title: Vijayshinva Karnure
 ---
 <!DOCTYPE html>
 <html class="cover dotted-background">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-		<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	  		ga('create', 'UA-72844465-1', 'auto');
-	  		ga('send', 'pageview');
-		</script>
-	</head>
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-
-	<script type="text/javascript" src="/scripts/convnet-min.js"></script>
-	<script type="text/javascript" src="/scripts/typed.min.js"></script>
-	<body>
-		<div class="div-center">
-			<div class="canvas-wrapper">
-				<canvas id="canv_original"></canvas>
-				<canvas id="canv_net"></canvas>
-			</div>
-			<div class="neuraltext">
-			</div>
-			<div id="report"></div>
-		</div>
-
-		<div class="menu">
-			<h1>
-				<a href="">Vijayshinva Karnure</a>
-			</h1>
-			<div>
-				<ul>
-					<li>
-						<a href="about">ABOUT ME</a>
-					</li>
-					<li>
-						<a href="projects">PROJECTS</a>
-					</li>
-					<li>
-						<a href="blog">BLOG</a>
-					</li>
-					<li>
-						<a target="_blank" href="https://blogs.msdn.microsoft.com/vijaysk/">OLD MSDN BLOG</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</body>
-	<script type="text/javascript">
-		$(function(){
-		      $(".neuraltext").typed({
-		        strings: ["This is a <strong>neural network</strong> learning to paint my picture."],
-		        typeSpeed: 0,
-		        showCursor: false
-		      });
-		  });
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-72844465-1', 'auto');
+		ga('send', 'pageview');
 	</script>
-	<script type="text/javascript" src="/scripts/neural.js"></script>
+</head>
+
+<body>
+	<div class="div-fs">
+		<canvas id="gol_canvas" class="div-fs"></canvas>
+		<div class="div-center">
+			<div class="photo-wrapper">
+				<img src="/img/photocolor.jpg" />
+			</div>
+			<!-- <div class="intro-text">
+				</div> -->
+		</div>
+	</div>
+
+	<div class="menu">
+		<h1>
+			<a href="">Vijayshinva Karnure</a>
+		</h1>
+		<div>
+			<ul>
+				<li>
+					<a href="about">ABOUT ME</a>
+				</li>
+				<li>
+					<a href="projects">PROJECTS</a>
+				</li>
+				<li>
+					<a href="blog">BLOG</a>
+				</li>
+				<li>
+					<a target="_blank" href="https://blogs.msdn.microsoft.com/vijaysk/">OLD MSDN BLOG</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	// $(function () {
+	// 	$(".intro-text").typed({
+	// 		strings: ["<i>A certified</i> <b>Azure Cloud Architect</b>, <i>a</i> <b>Full Stack Developer</b>, <i>a</i> <b>Machine Learning Enthusiast</b>, <i>a</i> <b>Big Data Engineer</b>, <i>a</i> <b>DevOps Specialist</b>, <i>a certified</i> <b>SAFe 4 Agilist</b> <i>and an experienced Consultant.</i>"],
+	// 		typeSpeed: 40,
+	// 		showCursor: false
+	// 	});
+	// });
+</script>
+<script type="text/javascript" src="/scripts/typed.min.js"></script>
+<script type="text/javascript" src="/scripts/game-of-life.min.js"></script>
+
 </html>

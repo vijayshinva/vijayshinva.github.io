@@ -53,6 +53,8 @@ permalink: /projects/
 					Other projects on GitHub
 				</h3>
 				<p>
+				<b>AzureWireGuard</b> - An Azure ARM template to quickly setup your own WireGuard VPN Server. <br/>
+
 				<b>BeautifulColors</b> - A .NET Core Library for working with colors.  <br/>
 
 				<b>Bencode2Json</b> - A .NET Core Library for converting Bencoded Dictionaries to Json Documents.  <br/>

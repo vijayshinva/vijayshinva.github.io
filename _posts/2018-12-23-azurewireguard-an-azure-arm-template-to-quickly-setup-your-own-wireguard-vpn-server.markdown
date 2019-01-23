@@ -36,7 +36,7 @@ This <b>Azure ARM</b> template simplifies the setup process by scripting all the
 - Install <b>Ubuntu Server</b> Upgrades.
 - Schedule a reboot after 24 hours, to ensure all <b>Ubuntu Server</b> Upgrades are applied.
 
-You can deploy this <b>Azure ARM</b> template with one of the following methods. Some knowledge of how [Azure ARM templates][azure-arm] work is really helpful. <b>Azure ARM</b> needs a <b>Storage Account</b> (_artifactsLocation) with access controlled via a <b>Shared access signature<b> (_artifactsLocationSasToken), to upload this template while deploying. If you use <b>Visual Studio</b> this <b>Storage Account</b> is created automatically in the <b>Resource Group</b> called <b>ARM_Deploy_Staging</b>.
+You can deploy this <b>Azure ARM</b> template with one of the following methods. Some knowledge of how [Azure ARM templates][azure-arm] work is really helpful. <b>Azure ARM</b> needs a <b>Storage Account</b> (_artifactsLocation) with access controlled via a <b>Shared access signature</b> (_artifactsLocationSasToken), to upload this template while deploying. If you use <b>Visual Studio</b> this <b>Storage Account</b> is created automatically in the <b>Resource Group</b> called <b>ARM_Deploy_Staging</b>.
 
 #### Method 1 - From [Visual Studio][vs]
 - Clone the [git repository][git-repo].

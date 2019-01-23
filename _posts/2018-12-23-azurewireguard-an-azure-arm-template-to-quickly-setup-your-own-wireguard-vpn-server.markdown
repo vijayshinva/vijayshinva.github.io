@@ -36,13 +36,20 @@ This <b>Azure ARM</b> template simplifies the setup process by scripting all the
 - Install <b>Ubuntu Server</b> Upgrades.
 - Schedule a reboot after 24 hours, to ensure all <b>Ubuntu Server</b> Upgrades are applied.
 
-You can deploy this <b>Azure ARM</b> template with one of the following methods. Some knowledge of how [Azure ARM templates][azure-arm] work is really helpful.
+You can deploy this <b>Azure ARM</b> template with one of the following methods. Some knowledge of how [Azure ARM templates][azure-arm] work is really helpful. <b>Azure ARM</b> needs a <b>Storage Account</b> (_artifactsLocation) with access controlled via a <b>Shared access signature<b> (_artifactsLocationSasToken), to upload this template while deploying. If you use <b>Visual Studio</b> this <b>Storage Account</b> is created automatically in the <b>Resource Group</b> called <b>ARM_Deploy_Staging</b>.
+
 #### Method 1 - From [Visual Studio][vs]
 - Clone the [git repository][git-repo].
 - Open the solution file in <b>Visual Studio</b> and deploy from <b>Visual Studio</b>.
 
 #### Method 2 - From [Azure Deploy][azure-deploy]
+- Create a storage account (you can also use an existing one) for ARM to upload this template. (_artifactsLocation)
+- Create a Shared access signature (SAS Token) for that storage account with full permissions. (_artifactsLocationSasToken)
 - Hit the <b>[Deploy to Azure][azure-deploy-awg]</b> button. 
+- Fill the necessary parameters along with _artifactsLocation and _artifactsLocationSasToken from above and hit the Purchase button.
+
+![Shared access signature](/img/posts/azurewireguard-sas.png | width=100)
+![Azure Deploy](/img/posts/azurewireguard-portal.png | width=100)
 
 #### Other Methods
 - There are multiple ways to deploy an <b>Azure ARM</b> template like  [Powershell][azure-ps], [Azure CLI][azure-cli], [Azure Portal][azure-portal] and [REST API][azure-rest].

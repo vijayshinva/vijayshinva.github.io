@@ -48,8 +48,8 @@ You can deploy this <b>Azure ARM</b> template with one of the following methods.
 - Hit the <b>[Deploy to Azure][azure-deploy-awg]</b> button. 
 - Fill the necessary parameters along with _artifactsLocation and _artifactsLocationSasToken from above and hit the Purchase button.
 
-![Shared access signature](/img/posts/azurewireguard-sas.png | width=100)
-![Azure Deploy](/img/posts/azurewireguard-portal.png | width=100)
+[![Shared access signature](/img/posts/azurewireguard-sas.png){:height="25%" width="25%"}](/img/posts/azurewireguard-sas.png)
+[![Azure Deploy](/img/posts/azurewireguard-portal.png){:height="25%" width="25%"}](/img/posts/azurewireguard-portal.png)
 
 #### Other Methods
 - There are multiple ways to deploy an <b>Azure ARM</b> template like  [Powershell][azure-ps], [Azure CLI][azure-cli], [Azure Portal][azure-portal] and [REST API][azure-rest].

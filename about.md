@@ -22,7 +22,6 @@ permalink: /about/
 							<li>Big Data Engineer</li>
 							<li>DevOps Specialist</li>
 							<li>SAFe 4 Agilist</li>
-							<li>Master of Technology</li>
 							<li>Consultant</li>
 							<li>Trainer</li>
 						</ul>
@@ -95,13 +94,13 @@ permalink: /about/
 									<li><a href="#">ARR</a></li>
 									<li><a href="#">Node.js</a></li>
 									<!--Cloud Technologies-->
-									<li><a href="#">Windows Azure</a></li>
+									<li><a href="#">Microsoft Azure</a></li>
+									<li><a href="#">Azure Functions</a></li>
+									<li><a href="#">Azure Kubernetes Service</a></li>
 									<li><a href="#">Azure EventHubs</a></li>
 									<li><a href="#">Azure Machine Learning</a></li>
 									<li><a href="#">Azure HDInsight</a></li>
-									<li><a href="#">IoT</a></li>
-									<li><a href="#">Raspberry Pi</a></li>
-									<li><a href="#">DocumentDB</a></li>
+									<li><a href="#">Azure Cosmos DB</a></li>
 									<!--Architecture-->
 									<li><a href="#">CQRS</a></li>
 									<li><a href="#">Lambda Architecture</a></li>
@@ -131,6 +130,9 @@ permalink: /about/
 									<li><a href="#">Elastic Search</a></li>
 									<!--Machine Learning-->
 									<li><a href="#">Tensor Flow</a></li>
+									<!--Others-->
+									<li><a href="#">IoT</a></li>
+									<li><a href="#">Raspberry Pi</a></li>
 								</ul>
 							</canvas>
 						</div>
@@ -147,12 +149,14 @@ permalink: /about/
 						<ul>
 							<li>Scaled Agile Framework - Leading SAFe 4.0</li>
 							<li>ITIL - Foundation</li>
-							<li>Microsoft Certified Solutions Developer - App Builder</li>
-							<li>Microsoft Certified Solutions Associate - Cloud Platform</li>
-							<li>Microsoft Certified Solutions Associate - Web Applications</li>
-							<li>Microsoft Certified Technology Specialist - Microsoft Biztalk Server 2010</li>
-							<li>Microsoft Certified Solutions Developer - Web Applications (Legacy)</li>
-							<li>Microsoft Certified Application Developer - Microsoft.NET (Legacy)</li>
+							<li>Microsoft Certified: DevOps Engineer Expert</li>
+							<li>Microsoft Certified: Azure Developer Associate</li>
+							<li>Microsoft Certified Solutions Developer: App Builder</li>
+							<li>Microsoft Certified Solutions Associate: Cloud Platform</li>
+							<li>Microsoft Certified Solutions Associate: Web Applications</li>
+							<li>Microsoft Certified Technology Specialist: Microsoft Biztalk Server 2010</li>
+							<li>Microsoft Certified Solutions Developer: Web Applications (Legacy)</li>
+							<li>Microsoft Certified Application Developer: Microsoft.NET (Legacy)</li>
 						</ul>
 					</div>
 				</div>
@@ -165,6 +169,28 @@ permalink: /about/
 							Work History
 						</h3>
 						<ul class="timeline">
+							<li class="timeline-inverted">
+	                            <div class="timeline-badge info">2020</div>
+	                            <div class="timeline-panel grid-block">
+	                                <div class="timeline-heading">
+	                                    <h4 class="timeline-title">Microsoft Corporation India Pvt. Ltd.</h4>
+	                                    <p>
+	                                        <small class="text-muted">
+	                                                Senior Consultant - Microsoft Consulting Services
+	                                        </small>
+	                                    </p>
+	                                    <p>
+	                                        <small class="text-muted">
+	                                            <i class="fa fa-calendar"></i> (2020 - Present) |
+												<i class="fa fa-map-marker"></i>  Bangalore, India
+	                                        </small>
+	                                    </p>
+	                                </div>
+	                                <div class="timeline-body">
+
+	                                </div>
+	                            </div>
+	                        </li>
 	                        <li class="timeline-inverted">
 	                            <div class="timeline-badge info">2014</div>
 	                            <div class="timeline-panel grid-block">
@@ -177,7 +203,7 @@ permalink: /about/
 	                                    </p>
 	                                    <p>
 	                                        <small class="text-muted">
-	                                            <i class="fa fa-calendar"></i> (2014 - Present) |
+	                                            <i class="fa fa-calendar"></i> (2014 - 2020) |
 												<i class="fa fa-map-marker"></i>  Bangalore, India
 	                                        </small>
 	                                    </p>
